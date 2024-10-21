@@ -1,0 +1,241 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgba(255, 192, 203, 0.73);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 400px;
+}
+.row{
+    display: flex;
+}
+.col1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.send{
+    height: 320px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.brand{
+   text-align: left;
+}
+.rating{
+    background-color: rgb(19, 82, 19);
+    color: white;
+    font-weight: bold;
+    width: 40px;
+}
+.ratingstock{
+    display: flex;
+    gap: 5px;
+}
+.pricediscountPercentage{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.description{
+    font-weight: bold;
+}
+.col2{
+    background-color: rgba(99, 78, 78,0.5);
+    height: 90vh;
+    width: 40%;
+    position: fixed;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content:space-between ;
+    align-items: center;
+    backdrop-filter: blur(50px);
+}
+.heading2{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: rgb(107, 46, 46);
+    color: white;
+}
+.cart-item .image {
+    margin-right: 10px;
+}
+.cart-item img {
+    border-radius: 5px;
+}
+.remove-button {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.totalitems{
+    position: absolute;
+    right: 90px;
+    bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.smallclose{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.close{
+    background-color: red;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+.proceed{
+    background-color: green;
+    border: none;
+    padding: 10px 38px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+
+}
+@media(max-width:440px){
+    .col2{
+        background-color: rgba(99, 78, 78,0.5);
+        height: 90vh;
+        width: 90%;
+        position: fixed;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        justify-content:space-between ;
+        align-items: center;
+        backdrop-filter: blur(50px);
+    }
+    .totalitems{
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    }
+    /* .smallclose{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        display: block;
+    } */
+    /* .close{
+        display: none;
+    }
+    .proceed{
+        background-color: green;
+        border: none;
+        padding: 10px 28px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+    } */
+    .cart-item {
+        display: flex;
+        /* margin-bottom: 10px; */
+        align-items: center;
+        background-color: rgb(107, 46, 46);
+        color: white;
+    }
+    /* .cart-item .image {
+        margin-right: 10px;
+    } */
+    .cart-item img {
+        border-radius: 5px;
+    }
+    .remove-button {
+        color: red;
+        cursor: pointer;
+        /* margin-left: 10px; */
+    }
+    .send{
+    height: 350px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 2px;
+    }
+    
+}
+/* @media(max-width:1024px){
+    .col2{
+        background-color: rgba(99, 78, 78,0.5);
+        height: 90vh;
+        width: 40%;
+        position: fixed;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        justify-content:space-between ;
+        align-items: center;
+        backdrop-filter: blur(50px);
+    }
+    
+} */
+.h1logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.h1logo i{
+    position: relative;
+}
+.badge{
+    position: absolute;
+}

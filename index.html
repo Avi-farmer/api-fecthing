@@ -1,0 +1,38 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ </head>
+<body>
+    <div class="h1logo">
+        <h1>my shop</h1>
+        <i class="fa-solid fa-cart-shopping fa-2xl" id="addtocart">
+            <small class="badge" id="cartBadge">0</small>
+        </i>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col1"></div>
+        <div class="col2">
+            <div>
+                <h2 class="heading2">My Cart</h2>
+                <div id="cartItems"></div>
+            </div>
+            <div>
+                <h6 class="totalitems">Total: <span id="totalcartitems">₹0.00</span></h6>
+            </div>
+            <div>
+                <button class="close">close</button>
+                <button class="smallclose fa-solid fa-xmark fa-beat"></button>
+                <button class="proceed">proceed</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
